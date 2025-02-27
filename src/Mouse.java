@@ -1,6 +1,11 @@
 public class Mouse {
-  void attributesOfMouse(){
-      System.out.println(" a mouse contains the following attributes \n left click \n right click \n scrollup \n");
-  }
+    protected String texture;
+    protected boolean ambidex;
+
+    // Constructor
+    public Mouse(String texture, boolean ambidex) {
+        this.texture = texture;
+        this.ambidex = ambidex;
+    }
 
 }
